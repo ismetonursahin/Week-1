@@ -16,7 +16,7 @@ public class Main {
         c = input.nextInt();
 
         total  = a+b*c-b;
-        System.out.println(total);
+        System.out.println("işlem Sonucu : " + total);
 
     }
 }
