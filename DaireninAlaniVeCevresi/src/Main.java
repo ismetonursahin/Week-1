@@ -7,7 +7,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
 
         double r,perimeter,circleArea ;
-        double pi = 3.14;
+        final double pi = 3.14;
         double a ;
 
         //Kullanıcıdan yarıçap ve istenilen dilimin açı değeri alınan kısım.
