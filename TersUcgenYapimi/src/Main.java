@@ -10,9 +10,8 @@ public class Main {
         number = input.nextInt();
 
         for(int i = 1; i<=number; i++){
-            for (int j =1 ; j<=i-1 ; j++){
+            for (int j = 1 ; j<=i-1 ; j++){
                 System.out.print(" ");
-
             }
 
             int star = (number+1)-i;
@@ -21,7 +20,5 @@ public class Main {
             }
             System.out.println();
         }
-
-
     }
 }
