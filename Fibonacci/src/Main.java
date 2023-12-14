@@ -26,7 +26,7 @@ public class Main {
         for (int i = 1;  i <= number ; i++){
             System.out.print(a + " , ");
 
-            toplam = a + b ; 
+            toplam = a + b ;
             a = b ;
             b = toplam ;
 
